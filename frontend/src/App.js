@@ -25,7 +25,7 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [retrievedData]);
 
   //submit form
   const sumbitForm = () => {
